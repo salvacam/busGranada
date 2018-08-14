@@ -1,0 +1,29 @@
+{
+  "name": "Horario Bus Granada",
+  "short_name": "horarios",
+  "version": "1.0.1",
+  "description": "Horario autobuses Granada",
+  "icons": {
+    "128": "img/icon-128x128.png"
+  },  
+  "developer": {
+    "name": "salvacam",
+    "url": "https://salvacam.js.org/"
+  },
+  "launch_path": "/index.html",
+  "type": "privileged",
+  "permissions": {
+    "input":{"description": "This permission is require to input data"},
+    "systemXHR": { "description": "This permission is require to call web api" }
+  },
+
+  "display":"Horario Bus Granada", 
+
+  "fullscreen": true,
+  "default_locale": "en",
+  "locales": {
+  "en-US": {
+      "name": "Horario Bus Granada"
+    }
+  }
+}

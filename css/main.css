@@ -1,0 +1,81 @@
+body {
+    font-family: Helvetica;
+    font-size: 16px;
+    min-width: 240px;
+}
+
+header h3 {
+    width: 100%;
+    margin: 0;
+    background-color: #ccc;
+    border-bottom: 1px solid #666;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 0;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+header h3 span {
+  display: inline-block;
+  vertical-align: sub;
+}
+
+.jumbotron {
+    background-color: white;
+}
+
+.jumbotron.container {
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-left: 0px;
+  padding-right: 5px;
+}
+
+.jumbotron #consulta {
+    margin-top: 20px;
+}
+
+#parada {
+  width: 115px;
+  height: 40px;
+  margin-left: 5px;
+}
+
+.labelHide {
+  height: 0px;
+  width: 0px;
+  overflow: hidden;
+  display: block;
+}
+
+div.clear {
+  height: 5px;
+}
+
+#hora {
+  padding-left: 5px;
+}
+
+#resultado table {
+  margin-left: 3px;
+}
+
+#cabeceraTabla th {
+  padding-left: 2px;
+  padding-right: 2px;
+  font-size: 15px;
+}
+
+.table>tbody>tr.resultado>td,
+.resultado td {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+/******************* BUSQUEDA *********************/
+
+#cargando {
+  margin: 0 auto;
+  text-align: center;
+}

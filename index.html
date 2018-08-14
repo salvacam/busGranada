@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Horarios</title>
+
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=2" />
+
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+
+  	<meta name="theme-color" content="#CCC">
+
+	<link rel="stylesheet" href="css/style.min.css">
+
+	<link rel="icon" href="img/icon.png">
+
+
+    <meta name="description" content="Horario autobuses Granada.">
+    <meta name="keywords" content="bus, transporte público, Rober, autobuses, Granada, PHP, javascript" />
+
+    <meta name="author" content="Salvador Camacho" />
+
+</head>
+
+<body>
+
+	<header>
+		<h3>
+			<img src="img/icon.png" alt="icon" height="24"> <span>BUS Granada</span>
+		</h3>                    
+	</header>
+
+      
+    <div class="container principal jumbotron" id="principalDiv">
+
+		<div id="consulta">
+			<input type="number" name="parada" id="parada" placeholder="Parada" maxlength="4" size="12" style="color: #000000; font-size: 120%;" value="">
+		</div>
+
+		<div class="clear"></div>
+		<div id="cargando" class="hide"><i class="fa fa-circle-o-notch fa-spin fa-4x" aria-hidden="true"></i></div>		
+		<div class="clear"></div>
+
+		<div id="operacion">
+		</div>
+		
+		<div id="resultado" class="hide">
+			<span id="hora"></span>
+			<div class="clear"></div>
+			<table class="table table-striped table-bordered text-center">
+				<thead id="cabeceraTabla" class="hide">
+					<tr>
+						<th class="text-center">Línea</th>
+						<th class="text-center">Destino</th>
+						<th class="text-center">LLegada</th>
+					</tr>
+				</thead>
+				<tbody id="tablaResultado">
+				</tbody>
+			</table>
+		</div>
+	</div>
+    
+	<script type="text/javascript" charset="utf-8" src="js/main.min.js"></script>
+
+</body>
+</html>
